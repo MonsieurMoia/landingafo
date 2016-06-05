@@ -23,3 +23,30 @@ header {
   padding: 1em;
   background-color: rgba(0,0,0,.5);
 }
+
+/*Circulitos*/
+.icon-circle {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 4em;
+  width: 4em;
+  padding: .2em;
+  text-align: center;
+  margin: auto;
+}
+.icon-circle img{
+  margin: .5em auto 0;
+}
+
+/*Main Button*/
+.btn-cat {
+  margin: 1em 0 0
+}
+
+/*Footer*/
+footer {
+  position: fixed;
+  bottom: 0;left: 0;
+  width: 100%;
+  padding: 3em;
+}
