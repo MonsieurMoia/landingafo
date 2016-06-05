@@ -1,5 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
 
 body {
-  font-family: 'Lato', sans-serif;
+  background-image: url("Images/Landing_background.jpg");
+  background-size: cover;
+  color: #fff;
+  font-weight:normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+
+/*Header*/
+header {
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  padding: .8em 0;
+}
+
+/*Main Content Section*/
+.content-section {
+  margin: 2em 0 0;
+  padding: 1em;
+  background-color: rgba(0,0,0,.5);
 }
